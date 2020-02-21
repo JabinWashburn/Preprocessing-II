@@ -1,1 +1,32 @@
 // Navigation Styles here
+.navContent{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    padding: 2% 0;
+    border-bottom: 3px dashed darkgray;
+    @media @mobile{
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        font-size: 2rem;
+        width: 50%;
+        margin-right: 30%;
+        justify-content: space-evenly;
+        @media @mobile{
+            justify-content: space-evenly;
+            width: 100%;
+        }
+    }
+    nav a{
+        padding-top: 2%;
+        text-decoration: none;
+        color: black;
+    }
+    .funBus{
+        width: 50%;
+        margin-left: 30%;
+    }
+}
+ 
